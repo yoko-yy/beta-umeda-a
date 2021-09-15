@@ -126,7 +126,5 @@ app.component('answer-input', {
     },
   }
 })
-app.config.devtools = true;
-app.config.debug = true;
 
 app.mount('#stage')
