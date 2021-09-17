@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>封鎖された家庭科室からの脱出 │ Project N</title>
+  <title>闇に飲まれた国からの脱出 │ Project N</title>
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -17,13 +17,13 @@
   </svg>
   <header class="header">
     <div class="container">
-      <div class="header__logo"><img src="assets/images/logo.svg" alt="チームロゴ"></div>
+      <div class="logo"><h2>あま党チーム🍓</h2></div>
       <div class="header__name">N・S高生制作サイト</div>
     </div>
   </header>
   <main class="main main-page">
     <!-- タイトルエリア　ここから -->
-    <h1 class="main-title"><img src="assets/images/main-image.png" alt="封鎖された家庭科室からの脱出"></h1>
+    <h1 class="main-title"><img src="assets/images/new_main-image.png" alt="闇に飲まれた国からの脱出"></h1>
     <!-- タイトルエリア　ここまで -->
     <div id="stage">
 
@@ -74,7 +74,7 @@ Youtube貼り付けここまで -->
         <!-- STAGE1解答入力セクション　ここから -->
         <section class="section bg-color--keycolor">
           <div class="container">
-            <h2 class="section-title"><span class="section-title__stage">STAGE：1</span>キーワードを入力</h2>
+            <h2 class="section-title"><span class="section-title__stage">STAGE:1</span>キーワードを入力</h2>
             <!------------------------------------------------------------------------------------------------------------
               解答入力欄のコンポーネントです。入力欄・送信ボタン・エラーメッセージを表示します。
               v-bind:correct="correctAnswer['stage1']['q1']" は正解の解答を指します。
@@ -122,15 +122,18 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE:2</span>謎の紙を解け！</h2>
+              <p class="text-center">ついに魔女の城にたどり着いた。外観は蔦に覆われており、薄気味悪く、周囲も静まりかえっている。<br>
+                門の前に門番が現れた。<br>
+              「城に簡単に入れると思うなよ。入りたいなら、俺を倒してみろ。」<br>
+                そこで先ほど得た謎の紙が門番の弱点のヒントだと感づいた！<br>
+                謎を解いて弱点を探り、そこを攻撃して門番を倒そう。<br>
+                ※回答は戦士が入力してください。<br>
             </div>
-          </div>
+           </div>
           <div class="stage-column__container section bg-color--keycolor">
             <div class="container">
-              <h2 class="section-title"><span class="section-title__stage">STAGE：2</span>キーワードを入力</h2>
+              <h2 class="section-title"><span class="section-title__stage">STAGE:2</span>キーワードを入力</h2>
               <!-------------------------------------------------------------
                 class名"row"内のclass名"column"が横並びになります。
                 改行する場合は以下のように追加してください。
@@ -197,10 +200,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE:2　CLEAR！</div>
-              <div class="clear-message__content">城の門番を倒したよ。魔女の弱点がわかる紙切れをひろった！<br>
-                魔女の弱点がわかる紙切れをひろった！<br>
-                ラストステージでついに魔女と戦おう！<br>
-                次が最後の謎だ。</div>
+              <div class="clear-message__content">倒された門番が何か言っている。<br>
+                『待ってくれ・・・！！彼女を救ってほしいんだ！！無理を言っているのはわかっている・・・彼女はこの国を守るために魔法を・・・でも、彼女一人にはおまりに膨大すぎた。だから、俺たちが闇に飲まれる前に自分たちの弱点を残していたんだ。それを思い出させてくれたことは感謝する。』
+                </div>
                 <button v-on:click="nextStage('stage2')" onclick="location.href='#sectionStage3'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -215,10 +217,12 @@ Youtube貼り付けここまで -->
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
-            <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
-              どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
-              これらを解決するための最後の謎を解いていこう！</p>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE:3</span>魔女を倒す謎</h2>
+            <p class="text-center">ついに魔女が現れた。<br>
+              「へへへ、あんたらに私を倒すことはできないね!!!!!」不気味な声で笑う。<br>
+              しかし、ついにここまで来た。ここで引き下がるわけにはいかない。<br>
+              先ほど拾った魔女の弱点のヒントとなる謎を解き、魔女を魔法で攻撃しよう！<br>
+              ※回答は魔法使いが入力してください。</p>
             <figure class="image__container">
               <img src="assets/images/nazo-3.png" alt="">
             </figure>
