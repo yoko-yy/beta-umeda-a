@@ -1,0 +1,18 @@
+/* Webフォント設定用 cssテンプレート 不要になったら削除してください */
+@font-face{
+	font-family: kakkoii;
+	src: url(assets/fonts/kakkoii.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: kawaii;
+	src: url(assets/fonts/kawaii.otf) format('opentype');
+}
+
+/* Webフォントを使いたい要素でfont-familyを指定 */
+#section1 .kakkoii{
+	font-family: kakkoii;
+}
+#section2 .kawaii{
+	font-family: kawaii;
+}
