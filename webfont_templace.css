@@ -1,7 +1,7 @@
 /* Webフォント設定用 cssテンプレート 不要になったら削除してください */
 @font-face{
 	font-family: kakkoii;
-	src: url(assets/fonts/kakkoii.ttf) format('truetype');
+	src: url(assets/fonts/kakkoii.ttf) format('truetype'); /* 実際にはアップロードしたフォントファイルを指定してください 拡張子がttfならtruetype otfならopentypeです */
 }
 
 @font-face{
